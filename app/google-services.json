@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845128148671",
+    "project_id": "greencart-83aee",
+    "storage_bucket": "greencart-83aee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845128148671:android:eac7f772516fdd0c42080a",
+        "android_client_info": {
+          "package_name": "com.example.greencart98939"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL5lOAFXF0IDlLsI5aA6Fic3a-2czl6ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

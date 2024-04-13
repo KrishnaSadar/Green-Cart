@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theam"
+    tools:context=".RegisterNewUser">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="317dp"
+        android:layout_height="600dp"
+        android:background="#BBF43A"
+        android:backgroundTint="#BBF43A"
+        android:elevation="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/confirmpass"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/button4gradient"
+                android:ems="10"
+                android:hint="Confirm password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/signup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newpass" />
+
+            <EditText
+                android:id="@+id/newpass"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/button4gradient"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/confirmpass"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/adress" />
+
+            <EditText
+                android:id="@+id/adress"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/button4gradient"
+                android:ems="10"
+                android:hint="Adresss"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/newpass"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newemail" />
+
+            <EditText
+                android:id="@+id/newemail"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/button4gradient"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/adress"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mobileno" />
+
+            <EditText
+                android:id="@+id/mobileno"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/button4gradient"
+                android:ems="10"
+                android:hint="Mobile No"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/newemail"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/button4gradient"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/mobileno"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <android.widget.Button
+                android:id="@+id/signup"
+                android:layout_width="267dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/button4gradient"
+                android:text="Sign Up"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                app:cornerRadius="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.48"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="165dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="6dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/applogo" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="209dp"
+                android:layout_height="84dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/baseline_add_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
